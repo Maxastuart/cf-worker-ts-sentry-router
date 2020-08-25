@@ -26,15 +26,15 @@ module.exports = {
     // 'prettier/react',
     'prettier/standard',
   ],
-  overrides: [
-    {
-      files: ['*.js', '*.ts'],
-      rules: {
-        // Disallow default exports from non-jsx files
-        'import/no-default-export': 'error',
-      },
-    },
-  ],
+  // overrides: [
+  //   {
+  //     files: ['*.js', '*.ts'],
+  //     rules: {
+  //       // Disallow default exports from non-jsx files
+  //       'import/no-default-export': 'error',
+  //     },
+  //   },
+  // ],
   parser: '@typescript-eslint/parser',
   parserOptions: {
     ecmaVersion: 2020,
@@ -68,10 +68,10 @@ module.exports = {
     'arrow-body-style': ['error', 'as-needed'],
 
     // Allow dev dependencies
-    'import/no-extraneous-dependencies': ['error', { devDependencies: true }],
+    // 'import/no-extraneous-dependencies': ['error', { devDependencies: true }],
 
     // Enforce import order and no spaces
-    'import/order': ['error', { 'newlines-between': 'never' }],
+    // 'import/order': ['error', { 'newlines-between': 'never' }],
 
     // Allow named exports from files with a single export
     'import/prefer-default-export': 'off',
