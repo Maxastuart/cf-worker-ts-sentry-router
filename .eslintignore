@@ -1,0 +1,11 @@
+# General #
+##########
+.next/
+out/
+build/
+coverage/
+dist/
+
+# HACK: disable temporarily
+workers-site/
+instantsearch/

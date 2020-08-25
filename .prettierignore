@@ -1,0 +1,13 @@
+##########
+# If adding to this file, think about updating .eslintignore too
+##########
+
+# General #
+##########
+.next
+out
+build/
+coverage/
+dist/
+vars/
+vendor/
